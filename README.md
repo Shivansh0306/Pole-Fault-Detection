@@ -9,7 +9,7 @@ An Android 14-ready fault monitoring app for utility poles, built with Jetpack C
 - **Staff dashboard**: operational view with node-level insights
 - **Fault reporting**: map picker, photo upload, and rich descriptions
 - **Foreground monitoring service**: resilient permissions handling for Android 14+ `FOREGROUND_SERVICE_DATA_SYNC`
-- **Local alerting**: Notification channels + runtime `POST_NOTIFICATIONS` requests (no Firebase dependency)
+- **Local alerting**: Notification channels + runtime `POST_NOTIFICATIONS` requests (no  Firebase dependency)
 
 ## Architecture & Tech Stack
 
@@ -18,7 +18,7 @@ An Android 14-ready fault monitoring app for utility poles, built with Jetpack C
 - **DI**: Koin
 - **Networking**: Retrofit + Kotlin Serialization/Moshi (depending on build flavor)
 - **Concurrency**: Coroutines
-- **Build/Tools**: Gradle Kotlin DSL, lint, Crashlytics (analytics only)
+- **Build/Tools**: Gradle Kotlin DSL,  lint, Crashlytics (analytics only)
 
 ## Getting Started
 
@@ -89,7 +89,7 @@ app/src/main/java/com/ksebl/comkseblfaultapp/
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/my-change`)
 3. Make and test your updates
-4. Submit a pull request describing the change and testing notes
+4. Submit a pull request describing the change and testing notes 
 
 ## License
 
